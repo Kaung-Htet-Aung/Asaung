@@ -1,0 +1,196 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top:0px;
+  color: #5a5a5a;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
+}
+
+h3{
+  color: black;
+  font-weight: bold;
+}
+select:focus > option:hover {
+  background: #000 !important;
+}
+.green{
+   background-color: #90DFAA;
+}
+.info{
+  background-color: #5bc0de;
+}
+.blue{
+  background-color:  #003366;
+}
+#header{
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  padding: 10px 130px 10px 130px;
+  z-index: 100;
+  
+}
+
+
+
+#welcome h2{
+  padding-top:20rem;
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: bold;
+}
+.latest{
+  padding-top:30px;
+}
+.latest-title{
+  margin-top: 80px;
+}
+.card-footer-link{
+  display: flex;
+  justify-content: space-between;
+}
+.card-footer-link a{
+ text-decoration: none
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.largenav{
+  height:50px;
+}
+.sidenav{
+  display: none;
+}
+.largenav a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.openbtn{
+  display: none;
+}
+.closebtn{
+  display: none
+}
+#smallnavContainer{
+  display: none;
+}
+#largenavContainer{
+  display: flex;
+  line-height: 50px;
+
+}
+@media screen and (max-width:991px) {
+  #largenavContainer{
+    display: none;
+  }
+  #header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+  }
+  #smallnavContainer{
+     display: flex;
+     line-height: 50px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  .sidenav a {
+    margin: 8px 5px 8px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display:block;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+ 
+  .openbtn {
+    display: block;
+   
+  }
+  
+  #closebtn2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  .authbtn{
+    display:inline-block !important;
+    margin-left:20px !important;
+  }
+  .authbtn a{
+    display: inline-block !important;
+    margin-left: 0px !important;
+  }
+}
+
